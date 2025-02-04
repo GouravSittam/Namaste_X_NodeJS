@@ -19,3 +19,4 @@ fs.readFile("./gossip.txt", "utf8", (err, data) => {
 setTimeout(() => {
   console.log("Here for 5 seconds");
 }, 5000);
+//these tasks take time to execute so they are asynchronous and we use callback functions to handle the response from these tasks.
