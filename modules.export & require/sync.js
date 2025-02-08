@@ -4,5 +4,6 @@ function mul(x, y) {
   const res = a * b;
   return res;
 }
+
 var c = mul(a, b);
 console.log(c);
