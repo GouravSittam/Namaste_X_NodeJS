@@ -1,7 +1,7 @@
 const http = require("http");
 
-const server =http.createServer(function(req,res){
-    res.end("Hello World");
+const server = http.createServer(function (req, res) {
+  res.end("Hello World");
 });
 
-server.listen(6666);
+server.listen(3333);
